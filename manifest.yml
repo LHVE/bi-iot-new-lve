@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bi-iot-new-lve
+  host: bi-iot-new-lve
+  disk_quota: 1024M
+  services:
+  - bi-iot-new-lve-cloudantNoSQLDB
+  - bi-iot-new-lve-iotf-service
